@@ -4,5 +4,5 @@
 - 🌱 I’m currently learning Nuxt 3
 - ⚡ Fun fact: I love Vue.js  !
 
-<img src="./carousel.svg">
+<img width="100%" src="./carousel.svg">
 
