@@ -4,4 +4,4 @@
 - 🌱 I’m currently learning Nuxt 3
 - ⚡ Fun fact: I love Vue.js  !
 
-![Image](.//test.svg)
+![Image](./test.svg)
