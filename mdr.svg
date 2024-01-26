@@ -1,0 +1,57 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+      <style>
+        div {
+          color: black;
+          font: 18px serif;
+          height: 100%;
+        }
+
+        .container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        .box {
+          width: 50px;
+          height: 50px;
+          background-color: blue;
+          margin: 10px;
+
+          animation: spin 5s linear infinite;
+
+          
+        }
+
+        @keyframes spin {
+          0% {
+            transform: rotate(0deg);
+          }
+          100% {
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+    
+    
+      <!-- Common use case: embed HTML text into SVG -->
+      <foreignObject x="20" y="20" width="160" height="160">
+        <!--
+          In the context of SVG embedded in an HTML document, the XHTML
+          namespace could be omitted, but it is mandatory in the
+          context of an SVG document
+        -->
+        <div class="container" xmlns="http://www.w3.org/1999/xhtml">
+          <div class="box"></div>
+        </div>
+        <iframe src="https://osecours.fr" frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        
+        </iframe>
+      </foreignObject>
+    </svg>
