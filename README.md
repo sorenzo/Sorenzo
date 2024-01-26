@@ -5,6 +5,6 @@
 - ⚡ Fun fact: I love Vue.js  !
 
 <picture>
-<img src="https://sorenzogv.fr" alt="visit my website" width="100" height="18px" align="left">
+<img src="https://sorenzogv.fr" alt="visit my website">
 </picture>
 
